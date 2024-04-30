@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>MAIN SYSTEM</title>
+  <link rel="stylesheet" href="./style1.css">
+
+</head>
+
+
+<body>
+    
+    <nav>
+      <a href="./index.html">Home</a>
+     <a href="settings.html">team</a>
+      <a href="mobile.html">Mobile</a>
+      <div class="animation start-home"></div>
+    </nav>
+  <div class="wrapper">
+  <div class="main">
+    <div class="container">
+    <video id="webcam" autoplay playsinline></video>
+    <center><canvas class="output_canvas" id="output_canvas" width="1280" height="720" style="position: absolute; left: 250px; top: 0px;"></canvas></center>
+ <center> <p id='gesture_output' class="output"></center>
+      <button id="webcamButton" <span class="mdc-button__ripple"></span>
+        <span class="mdc-button__label">ENABLE WEBCAM</span></button>
+      
+  </div>
+
+  <script type="module" src="./js.js"></script>
+
+ <h1><p style="color:GREEN;">LOG</p></h1>
+ <h5> <div id="popup" style="display: none;">
+    <div id="gestureLogContainer"></div></h5>
+   
+
+
+
+</div>
+    
+
+</body>
+
+  
+
+</html>
